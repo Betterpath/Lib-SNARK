@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+set -x
+
+docker build . -t betterpath/libsnark:latest
+docker run -td betterpath/libsnark:latest

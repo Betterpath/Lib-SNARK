@@ -11,4 +11,4 @@ RUN cmake ..
 RUN make
 RUN make doc
 RUN make check
-
+CMD tail -f /dev/null
